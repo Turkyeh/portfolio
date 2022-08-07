@@ -20,12 +20,12 @@
         <p id="failure">Oopsie...message not sent.</p>
         <p id="success">Your message was sent successfully. Thank you!</p>
 
-        <form method="post" action="mailto:Turkyeh.yousef@gmail.com">
+        <form method="post" action="data.php" method="post">
             <div>
                 <label for="name">
                     <span class="required">Name: *</span>
                     <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required"
-                        tabindex="1" autofocus="autofocus" />
+                        tabindex="1" autofocus="autofocus" minlength="7" maxlength="20" />
                 </label>
             </div>
             <div>
@@ -52,11 +52,14 @@
                         required="required"></textarea>
                 </label>
             </div>
+
             <div>
                 <button name="submit" type="submit" id="submit">SEND</button>
             </div>
+            <div style="padding-left :86% ;  ">
+                <button name="reset" type="reset" style="background-color: rgb(120, 112, 119);">Reset</button>
+            </div>
         </form>
-
     </div>
 
 

@@ -38,18 +38,18 @@
 }
 
 .facebookBtn:hover {
-    color: #4060A5;
+    color: #ff00aa;
     background: #fff;
 }
 
 /* twitter button class*/
-.twitterBtn {
+.Github {
     background: #00ABE3;
 }
 
-.twitterBtn:before {
+.Github:before {
     font-family: "FontAwesome";
-    content: "\f099";
+
     /* add twitter icon */
 }
 
@@ -202,9 +202,16 @@
     background: #fff;
 }
 
+.sec {
 
+    text-align: center;
+}
 
-
+.contact div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 
 /* medium button class*/
-
